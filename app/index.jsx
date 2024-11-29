@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -9,10 +10,10 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text style={{
-        fontFamily: "outfit-medium",
-        fontSize: 40,
-      }}>hello !!</Text>
+      <Link href={'/login'}>
+        <Text>Go to login page</Text>
+      </Link>
+
     </View>
   );
 }

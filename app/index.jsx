@@ -9,7 +9,10 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>hello world!!</Text>
+      <Text style={{
+        fontFamily: "outfit-medium",
+        fontSize: 40,
+      }}>hello !!</Text>
     </View>
   );
 }

@@ -52,7 +52,8 @@ export default function RootLayout() {
       <Stack> 
         <Stack.Screen name="index"/>
         <Stack.Screen name="login/index" options={{headerShown:false}}/>
-        <Stack.Screen name="home"/>
+        <Stack.Screen name='(tabs)' />
+        {/* <Stack.Screen name="home"/> */}
         
       </Stack>
     </ClerkProvider>
